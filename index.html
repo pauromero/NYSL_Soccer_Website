@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--HOME-->
+<head>
+    <meta charset="utf-8">
+    <title>Nothside Youth Soccer League</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+    <link rel="shortcut icon" type="image/x-icon" href="IMG/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
+    </script>
+    
+</head>
+
+<body>
+    
+    <header>
+        <div id="titulo">Nothside Youth Soccer League</div>
+        <img src="IMG/logo.png" alt="Logo" id="logo2">
+        <div class="w3-bar w3-black">
+            <a href="#home" class="w3-bar-item w3-button" >Home</a>
+            <a href="#upcomingevents" class="w3-bar-item w3-button" >Upcoming Events</a>
+            <a href="#about" class="w3-bar-item w3-button">About NYSL</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            <a href="rulesNYSL.html" class="w3-bar-item w3-button">Rules</a>
+            <a href="infogame.html" class="w3-bar-item w3-button">Game Information</a>
+            <a href="Formulario.html" class="w3-bar-item w3-button">Registration Form</a>
+        
+
+        </div> 
+    </header>
+    
+    <a id="home"></a> 
+    <img class="img1" src="IMG/design1_image1.jpg" alt="image1">
+   
+   
+    <div id= "upcomingevents"><a class=scroll href="#upcomingevents"><i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a></div>
+    <div class="titulo2">
+        <h2> Upcoming Events </h2>
+    </div>
+    
+    <div>
+        <img src="IMG/logo.png" alt="Logo" id="logo">
+    </div>
+        <br>
+        <p> August 4 
+        <br> NYSL Fundraiser 
+        <br><br> August 16
+        <br>Season Kick-off: Meet the Teams</p>
+        <p>September 1 
+        <br>First Game of the Season (Check Game Schedule for details)
+        </p>
+        <br>
+        <br>
+    
+    <a class="button-see-more" href="infogame.html" class="w3-bar-item w3-button">See more information</a>
+         
+    <div id="about"></div>
+    
+    <div class="titulo2">        
+        <h2> About NYSL </h2>
+    </div>
+            <h3 class="subtitulos" id="mision"> Mission </h3>
+                <p>To support young athletes living in Chicago's northside neighborhoods, who have an interest in learning and playing soccer, with opportunities to learn and practice skills related to the game of soccer, specifically those skills around team cooperation and good sportsmanship.
+                </p>
+
+            <h3 class="subtitulos">Vision</h3>
+                <p>The Northside Youth Soccer League aspires to develop strong, well-rounded, and mindful athletes through the building of character, self-discipline, and leadership.
+                </p>
+                
+            <h3 class="subtitulos">General Information</h3>
+                <p> The North Youth Soccer League was established in 1996 to provide athletes residing in Chicago's northside neighborhoods an environment in wich to learn and play soccer. To be a member of NYSL, you must be between the ages of 4-12 and reside in a Chicago northside neighborhood. NYSL is ran by a small full-time staff, and relies on the generous volunteer time of parents and previous league members. 
+                </p>
+
+                <div id="contact"></div>
+                
+        <div class="titulo2">
+            <h2> Contact </h2>
+        </div>
+        <div>
+            
+            <div class="contactdisplay"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3606619.1633379003!2d-89.22443066919556!3d42.070791385371045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C+Illinois%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1490607653367" width="700" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+            
+            <div class="contactcuerpo contactdisplay">
+                <p>Please email us at  
+                    <a href= "mailto:nysl@chisoccer.org" class="mail">nysl@chisoccer.org</a> 
+                </p>
+                <p>We will reply to you email as soon as we can. </p>
+                <p>You can do the <a class="here" href="Formulario.html">Registration Form here.</a></p>
+                
+            </div>
+            
+        </div>
+    
+    <div class="piedepag"></div>
+    <script>
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+            if (this.hash !== "") {
+              event.preventDefault();
+              var hash = this.hash;
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+                window.location.hash = hash;
+              });
+            } 
+          });
+        });
+    </script>
+
+</body>
+
+</html>

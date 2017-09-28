@@ -1,0 +1,226 @@
+
+body {
+    font-family: verdana;
+    background-color: whitesmoke;
+    font-size: 15pt;
+    text-decoration-color: darkgrey;
+    
+}
+table {
+    width: 75%;
+    margin: 50px;
+    margin-top: 20px;
+    border: 2px solid black;
+    font-size: 15pt;
+    text-decoration-color: darkgrey;
+    position: relative;
+    left: 11%;
+}
+
+#logo {
+    width: 12%;
+    margin-left: 50px;
+    margin-bottom: -70px;
+    margin-right: -50px;
+    
+}
+.portada{
+    background-image: url(../IMG/image4.jpg);
+    width: 100%;
+    height: 440px;
+    overflow: hidden;
+    
+}
+
+#titulo2 {
+    color: black;
+    font-family: verdana;
+    font-size: 45pt;
+    padding-bottom: 1%;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+header{
+    position: fixed;
+    background-color: whitesmoke;
+    width: 100%;
+    z-index: 1;
+}
+
+#logo2 {
+    width: 100px;
+    position: fixed;
+    right: 4%;
+    
+}
+
+#titulo {
+    color: black;
+    font-family: verdana;
+    font-size: 25pt;
+    font-weight: bold;
+    float: left;
+    
+}
+.titulo3{
+    background-color: grey;
+    
+}
+#rules {
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 100px;
+    position: relative;
+    top: 25%;
+    
+
+}
+h3 {
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+.p1 {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 200px;
+}
+.p2{
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 200px;
+    position: relative;
+    top: 28%;
+}
+.mail:hover {
+    color: grey;
+    font-weight: none;
+    text-decoration: none;
+}
+.piedepag{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    background-image: url(../IMG/grass2.png);
+    background-size: contain;
+    
+}
+.mapa{
+    margin-top: 5%
+}
+.formulario {
+    position: relative;
+    left: 10%;
+    margin-right: 20%;
+    border-style: solid;
+    border-width: 2px;
+    
+}
+.background{
+    background-color:#eee; 
+}
+.p3{
+    padding-right: 50px;
+    text-align: justify;
+    padding-top: 20px;
+    
+}
+.contactcontainer{
+    //margin-top: -1px;
+}
+.alreadycontainer{
+    margin-top: -23px;
+}
+.permission{
+    margin-top: -15px;
+}
+.formulario-contacto{
+    margin-left: 2%;
+}
+input[name="firstname"] {
+    width: 30%;
+    margin-right: 15%;
+}
+input[name="lastname"] {
+    width: 30%;
+    margin-right: 
+}
+input[name="streetadress"] {
+    width: 85%;
+}
+div.tituloh2 {
+    background-color: #ddd;
+    color: #444;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+div.tituloh2:hover {
+    background-color: #eee;
+}
+
+div.form {
+    padding: 0 18px;
+    background-color: #eee;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+div.size{
+    margin-left: 200px;
+}
+div.floatbox {
+    width: 350px;
+    margin-left: 50px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.cc-selector input{
+    display: none;
+}
+.cc-selector{
+    margin-left: 25%;
+}
+.cc-selector input:active +.positionormally{opacity: .9;}
+.cc-selector input:checked +.positionormally{filter: none;}
+.cc-selector input:active +.positionwant{opacity: .9;}
+.cc-selector input:checked +.positionwant{filter: none;}
+
+.goalkeeper{background-image:url(../IMG/campoportero.png);}
+.defence{background-image:url(../IMG/campodefensa.png);}
+.midfield{background-image:url(../IMG/campomedio.png);}
+.forward{background-image:url(../IMG/campodelantero.png);}
+
+.positionormally{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width: 110px;
+    height: 300px;
+    transition: all 100ms ease-in;
+    filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+
+.positionormally:hover{
+    filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! *//
+	
+
+
+
+
